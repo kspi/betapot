@@ -1,7 +1,10 @@
 betapot
 ========
 
-Generate and plot potentiometer curve lookup table using Beta CDF.
+Generate and plot potentiometer curve lookup table using the Beta_ cumulative
+distribution function.
+
+.. _Beta: https://en.wikipedia.org/wiki/Beta_distribution
 
 There are two parameters that determine the curve shape: A and B. If both are 1,
 the curve is linear.  If <1, that part of the curve (bottom or top) becomes
