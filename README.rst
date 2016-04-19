@@ -22,7 +22,9 @@ Outputs comma separated values suitable for inclusion in a C array.
 Setup
 -----
 
-To install dependencies run
+The program depends on `Python 3`, `numpy`, `scipy` (that you should install
+using your package manager), `matplotlib` and `seaborn`. In case the last ones
+are not available, you can use `pip`:
 
 .. code:: sh
 
